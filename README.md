@@ -26,7 +26,7 @@ Every one of these is in a registry another plugin can extend by id.
 2. Install the plugins that use it (Ember Essentials portals, Ember Jobs, Ember Enchants). They declare it as a dependency.
 3. `/emberfx gui` opens the builder; `/emberfx play <preset>` plays any of the 86 presets.
 
-Runs on Paper, Purpur and Folia, 26.2 and newer, Java 25. On Folia every effect that touches a player runs on that player's region thread. Bedrock viewers get particle substitutes for the 34 particles Geyser cannot draw.
+Runs on Paper, Purpur and Folia, 1.21.1 through 26.2, Java 21 or newer. One jar covers the whole range: it is compiled against the oldest API in it and emitted as Java 21 bytecode, because a newer JVM runs older bytecode and never the reverse. On Folia every effect that touches a player runs on that player's region thread. Bedrock viewers get particle substitutes for the 34 particles Geyser cannot draw.
 
 ## Links
 
